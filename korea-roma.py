@@ -28,4 +28,4 @@ def roma():
         names = [name_item['name'] for name_item in name_items]
     return render_template("roma.html",names=names)
 if __name__ == '__main__':
-        app.run(host="192.168.219.100",port="4000",use_reloader=True, debug=True)
+        app.run(host="0.0.0.0",port="4000",use_reloader=True, debug=True)
